@@ -4,7 +4,7 @@
   // フォント サイズをピクセル単位で制御します。
   "editor.fontSize": 13,
   // フォント ファミリを制御します。
-  "editor.fontFamily": "Ricty Diminished",
+  "editor.fontFamily": "HackGen",
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -19,6 +19,8 @@
   "editor.scrollBeyondLastLine": false,
   "editor.smoothScrolling": true,
   "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
   "eslint.alwaysShowStatus": true,
   "extensions.autoUpdate": true,
   // 有効な場合、ファイルを開くときに文字セット エンコードを推測します。言語ごとに構成することも可能です。
@@ -35,7 +37,6 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.zoomLevel": 0,
   "workbench.sideBar.location": "left",
-  "editor.wordWrap": "on",
   "python.jediEnabled": false,
   "python.formatting.provider": "black",
   "search.showLineNumbers": true,
@@ -45,8 +46,13 @@
   "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[typescript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.tabSize": 2
+  "[python]": {
+      "editor.formatOnPaste": false
+  }
 }
