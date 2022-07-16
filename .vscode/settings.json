@@ -1,22 +1,20 @@
 {
+  "angular.experimental-ivy": true,
   "css.lint.duplicateProperties": "warning",
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.cursorBlinking": "smooth",
-  // フォント サイズをピクセル単位で制御します。
   "editor.fontSize": 14,
-  // フォント ファミリを制御します。
-  "editor.fontFamily": "HackGenNerd",
+  "editor.fontFamily": "HackGen",
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  // Tab キーを押すとスペースが挿入されます。`editor.detectIndentation` がオンの場合、この設定はファイル コンテンツに基づいて上書きされます。
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
-  // エディターで空白文字を表示する方法を制御します。'none'、'boundary' および 'all' が使用可能です。'boundary' オプションでは、単語間の単一スペースは表示されません。
   "editor.renderWhitespace": "boundary",
   "editor.renderControlCharacters": true,
-  "editor.renderIndentGuides": true,
-  // エディターで最後の行を越えてスクロールするかどうかを制御します
   "editor.scrollBeyondLastLine": false,
   "editor.smoothScrolling": true,
   "editor.suggestSelection": "first",
@@ -24,7 +22,6 @@
   "editor.wordWrap": "on",
   "eslint.alwaysShowStatus": true,
   "extensions.autoUpdate": true,
-  // 有効な場合、ファイルを開くときに文字セット エンコードを推測します。言語ごとに構成することも可能です。
   "files.autoGuessEncoding": true,
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
@@ -33,6 +30,7 @@
     "**/dist/**": true,
     "**/venv/**": true
   },
+  "git.autofetch": true,
   "html.format.endWithNewline": true,
   "prettier.singleQuote": true,
   "python.analysis.typeCheckingMode": "basic",
@@ -40,21 +38,14 @@
   "python.languageServer": "Pylance",
   "scss.lint.duplicateProperties": "warning",
   "search.showLineNumbers": true,
-  // クラッシュ レポートを Microsoft に送信するように設定します。
-  // このオプションを有効にするには、再起動が必要です。
   "telemetry.enableCrashReporter": false,
-  // 利用状況データとエラーを Microsoft に送信できるようにします。
   "telemetry.enableTelemetry": false,
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.restoreWindows": "none",
   "window.zoomLevel": 0,
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "workbench.sideBar.location": "left",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
