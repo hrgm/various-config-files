@@ -2,6 +2,7 @@
   "angular.experimental-ivy": true,
   "css.lint.duplicateProperties": "warning",
   "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.cursorBlinking": "smooth",
   "editor.fontSize": 14,
@@ -31,20 +32,23 @@
     "**/venv/**": true
   },
   "git.autofetch": true,
+  "git.showPushSuccessNotification": true,
   "html.format.endWithNewline": true,
   "prettier.singleQuote": true,
   "python.analysis.typeCheckingMode": "basic",
   "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
+  "remote.containers.executeInWSL": true,
   "scss.lint.duplicateProperties": "warning",
   "search.showLineNumbers": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.restoreWindows": "none",
   "window.zoomLevel": 0,
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter-notebook"
   },
   "workbench.sideBar.location": "left",
   "[html]": {
@@ -65,6 +69,9 @@
   "[python]": {
     "editor.formatOnPaste": false,
     "editor.tabSize": 4
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
