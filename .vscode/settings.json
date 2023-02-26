@@ -1,6 +1,7 @@
 {
   "angular.experimental-ivy": true,
   "css.lint.duplicateProperties": "warning",
+  "dev.containers.executeInWSL": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.copyWithSyntaxHighlighting": false,
@@ -13,11 +14,13 @@
   "editor.guides.bracketPairs": true,
   "editor.guides.indentation": true,
   "editor.insertSpaces": true,
+  "editor.largeFileOptimizations": false,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
   "editor.renderControlCharacters": true,
   "editor.scrollBeyondLastLine": false,
   "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
@@ -34,11 +37,15 @@
   "git.autofetch": true,
   "git.showPushSuccessNotification": true,
   "html.format.endWithNewline": true,
+  "less.lint.duplicateProperties": "warning",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
   "prettier.singleQuote": true,
   "python.analysis.typeCheckingMode": "basic",
   "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
-  "remote.containers.executeInWSL": true,
   "scss.lint.duplicateProperties": "warning",
   "search.showLineNumbers": true,
   "telemetry.enableCrashReporter": false,
@@ -46,11 +53,12 @@
   "telemetry.telemetryLevel": "off",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.restoreWindows": "none",
-  "window.zoomLevel": 0,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "workbench.sideBar.location": "left",
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
